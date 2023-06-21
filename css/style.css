@@ -1,0 +1,497 @@
+body{
+    margin: 0%;
+}
+button:hover{
+    transform: scale(0.9);
+  }
+button{
+    cursor: pointer;
+    transition: 0.2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+/* start line1 */
+.line1{
+    display: flex;
+    height: 730px;
+    
+}
+.fa-solid.fa-bars{
+    display: none;
+}
+
+.line1 .left{
+    margin-top: 45px;
+    margin-left: 45px;
+    width: 45%;
+}
+.line1 .left .one{
+display: flex;
+justify-content: flex-start;
+}
+.line1 .left img{
+    margin-bottom: 50px;
+}
+.line1 h1{
+    width: 355px;
+    height: 150px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #1B1C57;
+    margin-top: 47px;
+}
+
+.line1 span{
+    order: 0;
+    flex-grow: 0;
+}
+
+.line1 p{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #626687;
+    opacity: 0.75;
+    margin-right: 80px;
+}
+
+.line1 .search-container{
+    margin: 31px 10px 10px 0;
+    padding: 4px 4px 4px 24px;
+    width: 402px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #E0E3EB;
+    border-radius: 32px
+}
+.line1 .search-box{
+    width: 283px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 32px;
+   
+}
+
+.line1 .search-container button{
+    width: 109px;
+    height: 48px;
+    background: #10B981;
+    border-radius: 32px;
+    border: white;
+
+}
+.line1 h4{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #888B97;
+
+}
+
+.line1 .logos-web{
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.line1 .right{
+    display: flex;
+    width: 55%;
+    height: 725px;
+    background-image: url(../img/image\ 6.png);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.line1 .right .header{
+    display: flex;
+    margin-top: 45px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.line1 .right .header button{
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 32px;  
+    color: white;  
+}
+
+.line1 .right .Review-people{
+    display: flex;
+    overflow: hidden;
+}
+/* end line1 */
+
+/* start line2 */
+.line2{
+    margin: 85px 0 50px 45px;
+}
+
+.line2 .one{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.line2 .one .our h5{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #F59E0B;
+    margin: 25px 0 0 0;
+}
+
+.line2 .one .our h3{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #1B1C57;
+    margin: 15px 0 45px 45px;
+}
+
+.line2 .one .houses{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.line2 .one .houses button{
+    display: flex;
+    align-items: center;
+    width: 135px;
+    height: 52px;
+    border-radius: 32px;
+    border: white;
+}
+
+.line2 .one .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 135px;
+}
+
+.line2 .two{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+/* end line2 */
+
+/* start line3 */
+.line3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.line3 .left h4{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #F59E0B;
+}
+.line3 .left h2{
+    margin-left: 25px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #1B1C57;
+
+}
+.line3 .left p{
+    margin-left: 25px;
+    width: 450px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #626687;
+    opacity: 0.75;
+}
+.line3 .left h6{
+    margin-left: 25px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1B1C57;
+    opacity: 0.75;
+}
+.line3 .left .Logo-house{
+    margin-left: 25px;
+    width: 400px;
+}
+
+.line3 .left .dianne{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
+}
+
+.line3 .left button{
+    align-items: center;
+    width: 163px;
+    height: 48px;
+    background: #10B981;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: #FFFFFF;
+
+}
+
+
+/* end line3 */
+
+/* start line4 */
+
+.line4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.line4 h6{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F59E0B;
+}
+
+.line4 h2{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B1C57;
+}
+
+.line4 .Review{
+    display: flex;
+}
+/* end line4 */
+
+/* start line5 */
+.line5{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.line5 .one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+.line5 .one h5{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #F59E0B;
+}
+
+.line5 .one p{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B1C57;
+    margin-top: 0;
+}
+
+.line5 .one button{
+    width: 118px;
+    height: 46px;
+    background: #10B981;
+    color: white;
+    border-radius: 32px;
+    margin-bottom: 30px;
+    border: white;
+
+}
+
+.line5 .two{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.line5 .two .left{
+    width: 45%;
+}
+.line5 .two .left img{
+    width: 95%;
+}
+/* end line5 */
+
+/* start line6 */
+
+.line6{
+    height: 312px;
+    background-image: url(../img/Rectangle\ 24.png);
+    margin: 80px 80px;
+    display: flex;
+    justify-content: space-around;
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+}
+.line6 .one{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 290px;
+    justify-content: space-evenly;
+}
+
+.line6 .two{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line6 .two p{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B1C57;
+    width: 430px;
+}
+.line6 .two .email{
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05);
+    border-radius: 32px;
+    width: 100%;
+}
+
+.line6 .two input{
+    width: 65%;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    border: white;
+}
+
+
+.line6 .two button{
+    width: 30%;
+    height: 46px;
+    background: #10B981;
+    border-radius: 32px;
+    color: white;
+    border: white;
+}
+
+.line6 .three{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 275px;
+    justify-content: space-evenly;
+}
+
+
+/* end line6 */
+
+/* start footer */
+.footer{
+    display: flex;
+    margin: 80px 80px;
+    justify-content: space-between
+}
+.footer p{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626687;
+    opacity: 0.75;
+    width: 330px;
+}
+
+.footer .small-logos{
+    display: flex;
+    width: 145px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer .two{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.footer .two .buld{
+    font-family: 'Lexend';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: capitalize;
+color: #0E1735;
+}
+.footer .two .all{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #888B97;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* end footer */
